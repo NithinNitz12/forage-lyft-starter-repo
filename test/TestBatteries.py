@@ -1,8 +1,8 @@
 import unittest
 from datetime import datetime
 
-from battery import NubbinBattery
-from battery import SpindlerBattery
+from battery.NubbinBattery import NubbinBattery
+from battery.SpindlerBattery import SpindlerBattery
 
 class TestNubbinBattery(unittest.TestCase):
     def ShouldBeServiced(self):
